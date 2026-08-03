@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地域のWeb担当 | 月額3万円でWebのこと何でもやります</title>
+  <meta name="description" content="ホームページ、SNS、広報、AI活用まで。必要なときに相談できる、地域に寄り添う外部Web担当です。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Noto+Sans+JP:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner container">
+      <a href="#" class="header__logo">
+        <span class="header__logo-dot" aria-hidden="true">●</span>
+        <span class="header__logo-text">地域のWeb担当</span>
+      </a>
+      <nav class="header__nav" id="headerNav" aria-label="メインナビゲーション">
+        <a href="#features" class="header__nav-link">特長</a>
+        <a href="#cases" class="header__nav-link">事例</a>
+        <a href="#services" class="header__nav-link">対応施策</a>
+        <a href="#pricing" class="header__nav-link">料金</a>
+        <a href="#flow" class="header__nav-link">ご契約の流れ</a>
+        <a href="#contact" class="header__nav-link header__nav-link--cta">無料相談はこちら</a>
+      </nav>
+      <button class="header__menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false" aria-controls="headerNav">
+        <span class="header__menu-btn-text">メニュー</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            月額3万円で<br>
+            <span class="text-accent">Webのこと</span><br>
+            何でもやります！
+          </h1>
+          <div class="hero__brand">
+            <span class="hero__brand-line" aria-hidden="true"></span>
+            <span class="hero__brand-name">地域のWeb担当</span>
+          </div>
+          <p class="hero__desc">
+            ホームページ、SNS、広報、AI活用まで。<br>
+            必要なときに相談できる、地域に寄り添う外部Web担当です。<br>
+            初期費用・解約金ゼロ。まずは無料でご相談ください。
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">
+              無料相談はこちら
+              <svg class="btn__icon" width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+                <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="#cases" class="btn btn--outline">導入事例を見る</a>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__image-wrap">
+            <img src="images/hero-landscape.png" alt="地域の風景" class="hero__image" width="600" height="471">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cases -->
+    <section class="cases section section--white" id="cases">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Cases</p>
+          <div class="section-header__row">
+            <h2 class="section-title">支援事例</h2>
+            <p class="section-desc">地域の様々な業種・規模の組織を支援してきた実績があります。</p>
+          </div>
+          <hr class="section-divider">
+        </div>
+        <div class="cases__grid">
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-01.png" alt="廃校活用のためのWebページ作成" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">NPO法人</span>
+              <h3 class="case-card__title">廃校活用のためのWebページ作成</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">LP制作・SEO対策</span></p>
+              <p class="case-card__client">NPO法人霜里学校</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-02.png" alt="地域伝統のお祭りのホームページ作成" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地方自治体</span>
+              <h3 class="case-card__title">地域伝統のお祭りのホームページ作成</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">HP制作・SEO対策</span></p>
+              <p class="case-card__client">小川町観光協会</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-03.png" alt="地方留学プログラムのWebページ作成" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地域事業者</span>
+              <h3 class="case-card__title">地方留学プログラムのWebページ作成</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">LP制作・ロゴ制作</span></p>
+              <p class="case-card__client">新潟県糸魚川市事業者</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-04.png" alt="地域の魅力紹介のためのInstagram運用" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地方自治体</span>
+              <h3 class="case-card__title">地域の魅力紹介のためのInstagram運用</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">Instagram運用・動画編集</span></p>
+              <p class="case-card__client">おがわまち道の駅ふれあい広場</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-05.png" alt="地域おこし協力隊採用チラシの作成" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地方自治体</span>
+              <h3 class="case-card__title">地域おこし協力隊採用チラシの作成</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">チラシ制作、採用企画</span></p>
+              <p class="case-card__client">小川町</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-06.png" alt="共同イベントの企画" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地域事業者</span>
+              <h3 class="case-card__title">共同イベントの企画</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">イベント企画・チラシ制作</span></p>
+              <p class="case-card__client">カフェ「絲と糸」</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-07.png" alt="ふるさと納税関連のイベントチラシ作成" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地方自治体</span>
+              <h3 class="case-card__title">ふるさと納税関連のイベントチラシ作成</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">チラシ制作</span></p>
+              <p class="case-card__client">小川町観光協会</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-08.png" alt="広報活動使用のクリエイティブディレクション" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">地域事業者</span>
+              <h3 class="case-card__title">広報活動使用のクリエイティブディレクション</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">クリエイティブ企画・写真撮影</span></p>
+              <p class="case-card__client">宿「堂道」</p>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-card__image"><img src="images/case-09.png" alt="Web広告に使用するWebページの制作" loading="lazy"></div>
+            <div class="case-card__body">
+              <span class="case-card__tag">転職支援サービス</span>
+              <h3 class="case-card__title">Web広告に使用するWebページの制作</h3>
+              <p class="case-card__support">サポート内容：<span class="text-accent-dark">LP制作・営業資料制作・Web広告運用</span></p>
+              <p class="case-card__client">転職戦略会議</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Features</p>
+          <h2 class="section-title">地域のWeb担当ならではの強み</h2>
+          <hr class="section-divider">
+        </div>
+        <div class="features__grid">
+          <article class="feature-card">
+            <div class="feature-card__visual feature-card__visual--01" aria-hidden="true">
+              <div class="feature-illust feature-illust--chart">
+                <div class="feature-illust__bars">
+                  <div class="feature-illust__bar" style="--h: 30px; --op: 0.25"></div>
+                  <div class="feature-illust__bar" style="--h: 52px; --op: 0.45"></div>
+                  <div class="feature-illust__bar" style="--h: 78px; --op: 0.65"></div>
+                  <div class="feature-illust__bar" style="--h: 110px; --op: 0.85"></div>
+                  <div class="feature-illust__bar feature-illust__bar--accent" style="--h: 36px">
+                    <span class="feature-illust__yen">¥</span>
+                  </div>
+                </div>
+                <div class="feature-illust__labels">
+                  <span>スタート</span>
+                  <span>成長へ</span>
+                </div>
+                <span class="feature-illust__num">01</span>
+              </div>
+            </div>
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">まず、小さく始められる</h3>
+              <p class="feature-card__highlight">月額3万円〜。初期費用・解約金ゼロ</p>
+              <p class="feature-card__desc">「何から始めていいか分からない」状態でも大丈夫。まずはご状況をお聞きし、最小コストで始めるプランを一緒に設計します。</p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__visual feature-card__visual--02" aria-hidden="true">
+              <div class="feature-illust feature-illust--hub">
+                <div class="feature-illust__hub-center">窓口</div>
+                <div class="feature-illust__hub-nodes">
+                  <span class="feature-illust__node">HP制作</span>
+                  <span class="feature-illust__node">SNS</span>
+                  <span class="feature-illust__node">広告</span>
+                  <span class="feature-illust__node">AI活用</span>
+                  <span class="feature-illust__node">広報</span>
+                  <span class="feature-illust__node">DX</span>
+                </div>
+                <span class="feature-illust__num">02</span>
+              </div>
+            </div>
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">何でも相談できる窓口一本化</h3>
+              <p class="feature-card__highlight">ホームページからSNS・AI活用まで一括対応</p>
+              <p class="feature-card__desc">ホームページの更新・SNSの投稿・広報資料の作成・AIツールの導入支援まで、Web周りの困りごとは何でもご相談いただけます。</p>
+            </div>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__visual feature-card__visual--03" aria-hidden="true">
+              <div class="feature-illust feature-illust--team">
+                <div class="feature-illust__person feature-illust__person--main"></div>
+                <div class="feature-illust__people-row">
+                  <div class="feature-illust__person"></div>
+                  <div class="feature-illust__person"></div>
+                  <div class="feature-illust__person"></div>
+                </div>
+                <span class="feature-illust__team-label">地域のチームが直接サポート</span>
+                <span class="feature-illust__num">03</span>
+              </div>
+            </div>
+            <div class="feature-card__body">
+              <h3 class="feature-card__title">地域で活動するWebのプロがサポート</h3>
+              <p class="feature-card__highlight">地域の事情を知るメンバーが直接対応</p>
+              <p class="feature-card__desc">サポートするのは、地域で活動するWebの専門家チームです。地方の市場特性・行政の仕組み・地域コミュニティへの理解をもとに、サポートさせていただきます。</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section section--green" id="services">
+      <div class="container">
+        <div class="section-header section-header--light">
+          <p class="section-label">Services</p>
+          <h2 class="section-title section-title--white">対応施策の一覧</h2>
+          <p class="section-desc section-desc--light">Web周りの課題に幅広く対応します。必要な施策だけを選んで始められます。</p>
+          <hr class="section-divider section-divider--light">
+        </div>
+        <div class="services__grid">
+          <article class="service-card">
+            <div class="service-card__icon">🌐</div>
+            <h3 class="service-card__title">ホームページ制作・改修</h3>
+            <p class="service-card__desc">新規制作からリニューアルまで。スマホ対応・SEO基本対策含む。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">📱</div>
+            <h3 class="service-card__title">SNS運用支援</h3>
+            <p class="service-card__desc">Instagramを中心に投稿代行、フォロワー獲得戦略の設計。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">📊</div>
+            <h3 class="service-card__title">Web広告運用支援</h3>
+            <p class="service-card__desc">Google・Meta広告の設計・運用・改善。費用対効果を重視した運用。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🎨</div>
+            <h3 class="service-card__title">クリエイティブ制作支援</h3>
+            <p class="service-card__desc">バナー・動画・写真など広告・SNS用のビジュアル素材を制作。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🗺️</div>
+            <h3 class="service-card__title">Webマーケティング戦略設計</h3>
+            <p class="service-card__desc">集客の仕組みを整理し、施策の優先順位と実行計画を設計。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">💬</div>
+            <h3 class="service-card__title">公式LINE運用支援</h3>
+            <p class="service-card__desc">公式LINEの開設から配信設計・友だち獲得施策まで一括サポート。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🎓</div>
+            <h3 class="service-card__title">社内Web教育・研修</h3>
+            <p class="service-card__desc">担当者向けのSNS・HP更新・AI活用の社内勉強会や研修の実施。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">📋</div>
+            <h3 class="service-card__title">DX推進サポート</h3>
+            <p class="service-card__desc">業務のデジタル化・クラウドツール導入の選定・定着化まで伴走。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🗂️</div>
+            <h3 class="service-card__title">採用ページ・求人支援</h3>
+            <p class="service-card__desc">採用特化LPの制作、求人票作成、SNSでの採用ブランディング。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">🔍</div>
+            <h3 class="service-card__title">SEO対策</h3>
+            <p class="service-card__desc">検索上位表示を目指したコンテンツ・内部・外部施策を総合支援。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">📍</div>
+            <h3 class="service-card__title">MEO対策</h3>
+            <p class="service-card__desc">Googleマップ・ビジネスプロフィールの整備・口コミ獲得支援。</p>
+          </article>
+          <article class="service-card">
+            <div class="service-card__icon">📈</div>
+            <h3 class="service-card__title">月次レポート作成</h3>
+            <p class="service-card__desc">毎月のWeb施策の数値まとめと改善提案レポートを作成・共有。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Members -->
+    <section class="members section section--white" id="members">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Members</p>
+          <h2 class="section-title">サポートするメンバー</h2>
+          <p class="section-desc">地域で活動するWebの専門家チームがあなたの組織を継続的に支援します。</p>
+          <hr class="section-divider">
+        </div>
+        <div class="members__grid">
+          <article class="member-card">
+            <div class="member-card__image"><img src="images/member-yanagisawa.png" alt="柳沢 直哉" loading="lazy"></div>
+            <div class="member-card__body">
+              <h3 class="member-card__name">柳沢 直哉</h3>
+              <p class="member-card__role">Webディレクター / プロジェクトリード</p>
+              <p class="member-card__bio">前職でWebマーケティングの責任者を経験。現在は小川町を中心にWeb関連の施策を多数支援。</p>
+              <div class="member-card__tags">
+                <span class="member-card__tag">HP制作</span>
+                <span class="member-card__tag">Web広告</span>
+                <span class="member-card__tag">SEO</span>
+              </div>
+            </div>
+          </article>
+          <article class="member-card">
+            <div class="member-card__image"><img src="images/member-minoguchi.png" alt="蓑口 あずさ" loading="lazy"></div>
+            <div class="member-card__body">
+              <h3 class="member-card__name">蓑口 あずさ</h3>
+              <p class="member-card__role">Instagram運用者 / 広報支援</p>
+              <p class="member-card__bio">館山市でフリーランスで広報支援を行う。観光・飲食関連のInstagramの運用でフォロワー10,000人達成実績多数。</p>
+              <div class="member-card__tags">
+                <span class="member-card__tag">Instagram</span>
+                <span class="member-card__tag">広報</span>
+                <span class="member-card__tag">SNS運用</span>
+              </div>
+            </div>
+          </article>
+          <article class="member-card">
+            <div class="member-card__image"><img src="images/member-konno.png" alt="今野 直倫" loading="lazy"></div>
+            <div class="member-card__body">
+              <h3 class="member-card__name">今野 直倫</h3>
+              <p class="member-card__role">カフェ経営 / Webマーケティング支援</p>
+              <p class="member-card__bio">SEOを中心にしたWebマーケティング支援をフリーランス時代に行い、現在は糸魚川市でカフェ「絲と糸」を経営。</p>
+              <div class="member-card__tags">
+                <span class="member-card__tag">SEO</span>
+                <span class="member-card__tag">Webマーケティング</span>
+                <span class="member-card__tag">コンテンツ</span>
+              </div>
+            </div>
+          </article>
+          <article class="member-card">
+            <div class="member-card__image"><img src="images/member-oda.png" alt="小田 穂" loading="lazy"></div>
+            <div class="member-card__body">
+              <h3 class="member-card__name">小田 穂</h3>
+              <p class="member-card__role">NPO法人代表理事 / プロジェクトマネージャー</p>
+              <p class="member-card__bio">東京でコンサルティング会社に勤めた後、小川町でまちづくりを行うNPO法人霜里学校の代表理事に就任し、活動中。</p>
+              <div class="member-card__tags">
+                <span class="member-card__tag">営業</span>
+                <span class="member-card__tag">PM</span>
+                <span class="member-card__tag">経営</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing section" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Pricing</p>
+          <h2 class="section-title">料金について</h2>
+          <p class="section-desc">必要な支援を、必要な分だけ。小さく始めて、徐々に拡大できます。</p>
+          <hr class="section-divider">
+        </div>
+        <div class="pricing__grid">
+          <div class="pricing-card">
+            <div class="pricing-card__price">
+              <span class="pricing-card__amount">¥30,000</span>
+              <span class="pricing-card__unit">〜 / 月</span>
+            </div>
+            <div class="pricing-card__details">
+              <div class="pricing-card__detail">
+                <span class="pricing-card__detail-label">初期費用</span>
+                <span class="pricing-card__detail-value">0円</span>
+              </div>
+              <div class="pricing-card__detail">
+                <span class="pricing-card__detail-label">解約金</span>
+                <span class="pricing-card__detail-value">0円</span>
+              </div>
+              <div class="pricing-card__detail">
+                <span class="pricing-card__detail-label">最低契約期間</span>
+                <span class="pricing-card__detail-value">なし</span>
+              </div>
+            </div>
+            <p class="pricing-card__note">ご依頼の施策・稼働量によって月額費用は変動します。まずは無料相談にてお気軽にご状況をお聞かせください。組織の規模・課題に合わせた最適なプランをご提案します。</p>
+          </div>
+          <div class="pricing-cta">
+            <h3 class="pricing-cta__title">具体的な費用は<br>無料相談でご確認を</h3>
+            <p class="pricing-cta__desc">お話を聞いた上で、あなたの組織に必要な施策と概算費用をその場でお伝えします。押し売りは一切ありません。</p>
+            <ul class="pricing-cta__list">
+              <li><span class="pricing-cta__check">✓</span>相談・見積もり完全無料</li>
+              <li><span class="pricing-cta__check">✓</span>オンライン・対面どちらも対応</li>
+              <li><span class="pricing-cta__check">✓</span>当日から1週間以内に回答</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block">無料相談を申し込む →</a>
+          </div>
+        </div>
+        <div class="faq">
+          <h3 class="faq__title">よくある質問</h3>
+          <div class="faq__grid">
+            <div class="faq-item">
+              <p class="faq-item__q">Q. どんな組織でも相談できますか？</p>
+              <p class="faq-item__a">A. はい。地方自治体・中小企業・NPO・商工会議所など、規模・業種問わずご相談いただけます。</p>
+            </div>
+            <div class="faq-item">
+              <p class="faq-item__q">Q. 途中で施策を変更できますか？</p>
+              <p class="faq-item__a">A. はい。毎月の定例で振り返りを行い、必要に応じて施策の追加・変更・縮小が可能です。</p>
+            </div>
+            <div class="faq-item">
+              <p class="faq-item__q">Q. 契約後すぐに始められますか？</p>
+              <p class="faq-item__a">A. 無料相談から最短2週間でサポート開始が可能です。お急ぎの方はお申し付けください。</p>
+            </div>
+            <div class="faq-item">
+              <p class="faq-item__q">Q. 実際にどんなことを相談できますか？</p>
+              <p class="faq-item__a">A. HP更新からSNS投稿内容、AIツールの選び方、DX推進計画まで、Web全般についてご相談ください。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Flow -->
+    <section class="flow section section--white" id="flow">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-label">Flow</p>
+          <h2 class="section-title">ご契約までの流れ</h2>
+          <p class="section-desc">ご相談から最短2週間でサポートを開始できます。</p>
+          <hr class="section-divider">
+        </div>
+        <div class="flow__grid">
+          <article class="flow-card">
+            <div class="flow-card__header">STEP 01</div>
+            <div class="flow-card__body">
+              <div class="flow-card__icon">📞</div>
+              <h3 class="flow-card__title">無料相談のお申し込み</h3>
+              <p class="flow-card__desc">フォームまたはお電話からお申し込みください。オンライン・対面どちらにも対応しています。お気軽にご連絡ください。</p>
+              <p class="flow-card__time">所要時間：5分</p>
+            </div>
+            <span class="flow-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="flow-card">
+            <div class="flow-card__header">STEP 02</div>
+            <div class="flow-card__body">
+              <div class="flow-card__icon">🗣️</div>
+              <h3 class="flow-card__title">ヒアリング・課題整理</h3>
+              <p class="flow-card__desc">担当者と1時間程度のオンラインまたは対面ミーティング。現状のWebの状況・課題・目的をじっくりお聞きします。</p>
+              <p class="flow-card__time">所要時間：60分程度</p>
+            </div>
+            <span class="flow-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="flow-card">
+            <div class="flow-card__header">STEP 03</div>
+            <div class="flow-card__body">
+              <div class="flow-card__icon">📝</div>
+              <h3 class="flow-card__title">プランのご提案</h3>
+              <p class="flow-card__desc">ヒアリング後、1週間以内に施策の提案書と概算費用をご提示。内容に納得いただけるまで何度でも修正対応します。</p>
+              <p class="flow-card__time">提案まで：最短3営業日</p>
+            </div>
+            <span class="flow-card__arrow" aria-hidden="true">→</span>
+          </article>
+          <article class="flow-card flow-card--last">
+            <div class="flow-card__header">STEP 04</div>
+            <div class="flow-card__body">
+              <div class="flow-card__icon">✅</div>
+              <h3 class="flow-card__title">契約・サポート開始</h3>
+              <p class="flow-card__desc">ご納得いただけましたら契約を締結し、サポートを開始します。初月は特に丁寧にオンボーディングを行います。</p>
+              <p class="flow-card__time">開始まで：最短2週間</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta section section--dark" id="contact">
+      <div class="container cta__inner">
+        <span class="cta__badge">🎁 1ヶ月無料サポート特典付き</span>
+        <h2 class="cta__title">まず話してみるだけで<br>大丈夫です。</h2>
+        <p class="cta__desc">「何から始めていいか分からない」「今のままで大丈夫なのか不安」という状態で相談にいらっしゃる方がほとんどです。押し売りは一切なし。まずは現状をお聞きし、できることをご提案します。</p>
+        <div class="cta__actions">
+          <a href="#" class="btn btn--primary btn--lg">無料相談を申し込む →</a>
+          <a href="#" class="btn btn--ghost btn--lg">問い合わせる</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#" class="footer__logo">
+          <span class="footer__logo-dot" aria-hidden="true">●</span>
+          <span class="footer__logo-text">地域のWeb担当</span>
+        </a>
+        <nav class="footer__nav" aria-label="フッターナビゲーション">
+          <a href="#features">特長</a>
+          <a href="#cases">事例</a>
+          <a href="#services">対応施策</a>
+          <a href="#pricing">料金</a>
+          <a href="#flow">ご契約の流れ</a>
+          <a href="#contact">無料相談</a>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">© 2024 地域のWeb担当 All Rights Reserved.</p>
+        <div class="footer__links">
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">特定商取引法</a>
+          <a href="#">お問い合わせ</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
